@@ -33,17 +33,17 @@ function menuActions() {
 
     $("#menu-sobre").click(function() {
         var offset = $('.section-about').position().top;
-        $("html, body").animate({ scrollTop: offset }, 1000);
+        $("html, body").animate({ scrollTop: offset - 80 }, 1000);
     });
 
     $("#menu-servicos").click(function() {
         var offset = $('.section-services').position().top;
-        $("html, body").animate({ scrollTop: offset }, 1000);
+        $("html, body").animate({ scrollTop: offset - 80 }, 1000);
     });
 
     $("#menu-portfolio").click(function() {
         var offset = $('.section-port').position().top;
-        $("html, body").animate({ scrollTop: offset }, 1000);
+        $("html, body").animate({ scrollTop: offset - 80 }, 1000);
     });
 }
 
