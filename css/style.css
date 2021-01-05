@@ -180,6 +180,24 @@ body {
     transition: .5s;
 }
 
+.section-contato {
+    height: 600px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.contato-content {
+    margin-top: 100px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
 @media (max-width: 414px) {
 
     .hamburger {

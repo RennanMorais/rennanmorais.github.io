@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 //Efeito de digitação do header
-var content = 'PHP Laravel JavaScript jQuery Bootstrap React Wordpress';
+var content = 'PHP Laravel JavaScript jQuery Bootstrap React Vue.js Wordpress';
 var text = document.getElementById('typing');
 
 var speed = 100;
@@ -43,7 +43,12 @@ function menuActions() {
 
     $("#menu-portfolio").click(function() {
         var offset = $('.section-port').position().top;
-        $("html, body").animate({ scrollTop: offset - 80 }, 1000);
+        $("html, body").animate({ scrollTop: offset -80 }, 1000);
+    });
+
+    $("#menu-contato").click(function() {
+        var offset = $('.footer').position().top;
+        $("html, body").animate({ scrollTop: offset }, 1000);
     });
 }
 
