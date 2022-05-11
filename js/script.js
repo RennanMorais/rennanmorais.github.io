@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 //Efeito de digitação do header
-var content = 'PHP Laravel JavaScript jQuery Bootstrap React Vue.js Wordpress';
+var content = 'Java SpringBoot Angular PHP Laravel JavaScript jQuery Bootstrap CSS3';
 var text = document.getElementById('typing');
 
 var speed = 100;
